@@ -11356,6 +11356,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: block;
   margin: 0 auto;
 }
-.lista{
-  margin:left
+.modal-body ul {
+    text-align: left;
 }
