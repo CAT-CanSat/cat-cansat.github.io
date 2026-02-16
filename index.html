@@ -366,20 +366,29 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">vlami ize nem tudom</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">System</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/system.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>3 independent microcontroller-based architecture (RPI2040, RPI2040-ZERO, ESP32)</li>
+                                            <li>Primary mission: temperature and pressure measurement with redundant sensors</li>
+                                            <li>Secondary missions:
+
+                                                -Life-support cabin (temperature and pressure regulation)
+
+                                                -Cloud observation with AI-based classification
+
+                                                -Redundant primary mission using Kalman filter</li>
+                                            <li>868 MHz LoRa communication (868.1 and 868.9 MHz, software adjustable)</li>
+                                            <li>Onboard data storage on SD card (~277 MB maximum data)</li>
+                                            <li>Designed for minimum 4 hours of active operation</li>
+                                            <li>Total system mass: 340–350 g</li>
+                                            <li>Total cost: ~337.5 EUR</li>
+                                            
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -401,20 +410,27 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">mittudomen</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Mechanics</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/mechanic.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>Outer shell: 3D printed tough BLK resin</li>
+                                            <li>Internal structural elements: 6082 aluminum alloy</li>
+                                            <li>Survival chamber designed with reinforced wall thickness for pressure resistance</li>
+                                            <li>Pressurized air tank with safety valve</li>
+                                            <li>3 O-ring sealing system:    
+                                                    -Pressure chamber–cover
+                                                    -Cover–survival chamber
+                                                    -Survival chamber–Peltier housing
+                                            </li>
+                                            <li>Peltier cooling element in copper housing with upper and lower heat sinks</li>
+                                            <li>Tested for 20G acceleration and 50N load</li>
+                                            <li>Parachute attached via crossed metal cord structure + swivel ring</li>
+                                            <li>Two full CanSat units prepared for finals (shared metal components)</li>
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -436,20 +452,30 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Software</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/EE79C1BF-28BD-4E3C-9564-55408584FDD5.png" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>Programming languages: C++ (MCUs), Python (RPI2040)</li>
+                                            <li>Development environments: VS Code, Arduino IDE</li>
+                                            <li>Core functions:
+                                                -Sensor data acquisition
+                                                -Data formatting (base-61 encoding)
+                                                -Telemetry transmission
+                                                -Flight phase detection (launch, descent, landing)
+                                            </li>
+                                            <li>Automatic phase switching based on acceleration and pressure data</li>
+                                            <li>Fault tolerance:
+                                                -2× retry for sensor initialization
+                                                -Graceful degradation mode
+                                                -Safe default state (valve closed, Peltier off)
+                                            </li>
+                                            <li>Kalman filter for data fusion</li>
+                                            <li>AI-based cloud classification using 96×96 pixel grayscale image</li>
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -471,20 +497,28 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Telemetry</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/telemetry.jpeg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>LoRa communication in the 868 MHz ISM band</li>
+                                            <li>Minimum data rate: 255 bytes/s</li>
+                                            <li>Two independent LoRa channels for redundancy</li>
+                                            <li>Base-61 compressed data transmission (Z delimiter)</li>
+                                            <li>GPS coordinates transmitted every 10 seconds after landing</li>
+                                            <li>Images stored on SD card, one image transmitted to ground</li>
+                                            <li>Ground station:
+                                                -Two receiving units
+                                                -5- and 9-element Yagi antennas (9.5 dB gain)
+                                                -Gamma matching for SWR optimization
+                                            </li>
+                                            <li>Data exported in CSV format</li>
+                                            <li>Image processing using Python, NumPy, and OpenCV</li>
+                                            
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -506,20 +540,33 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Electronics</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/software.jpeg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Southwest
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Website Design
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>3× four-layer PCBs, 60 mm diameter</li>
+                                            <li>Power traces minimum 4 mm width</li>
+                                            <li>Main components:
+                                                -RPI2040
+                                                -RPI2040-ZERO
+                                                -ESP32
+                                                -BMP390, BMP280
+                                                -MAX6675 K-type sensor
+                                                -MPU6500
+                                                -2× LoRa modules
+                                                -GPS module
+                                            </li>
+                                            <li>Dedicated communication board</li>
+                                            <li>Dedicated primary mission board</li>
+                                            <li>Dedicated secondary mission board</li>
+                                            <li>LiPo batteries with individual cell protection</li>
+                                            <li>Master power switch</li>
+                                            <li>Total power consumption: ~2.7 W</li>
+                                            
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -541,20 +588,21 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Recovery</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <img class="img-fluid d-block mx-auto" src="assets/img/recovery.jpeg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
+                                    <p>
+                                        <ul>
+                                            <li>Cross-shaped ripstop nylon parachute</li>
+                                            <li>Descent rate: ~6 m/s</li>
+                                            <li>8 micro cords connected to a central swivel ring</li>
+                                            <li>Stable, anti-twist descent configuration</li>
+                                            <li>Estimated descent time from ~1 km altitude</li>
+                                            <li>GPS-based recovery system</li>
+                                            <li>Position transmitted every 10 seconds after landing</li>
+                                        </ul>
+                                    </p>
+                                   
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
